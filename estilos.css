@@ -165,10 +165,7 @@ background-size: 100% 100px;
 
 /*End Section Wave*/
 
-.container_section_principal{
-position: relative;
-}
-
+/*Start section curve*/
 .container_section_secondary{
     position: relative;
     background-color: var(--Very-Pale-Blue);
@@ -214,62 +211,4 @@ flex-direction: row-reverse;
 .section_white_direction .section_paragraph_secondary {
     width: 100%;
 }
-/*
-
-.wave {
-    position: absolute;
-    width: 100%;
-    height: 100px;
-    background-repeat: no-repeat;
-    background-size: 100% 100px;
-}
-
-.wave_top_desktop {
-    bottom: 100%;
-    left: 0;
-    background-image: url('./img/bg-section-top-desktop-1.svg');
-}
-
-.wave_bottom_desktop {
-    left: 0;
-    top:100%;
-    background-image: url('./img/bg-section-bottom-desktop-1.svg');
-}
-
-.grupo_contenedor{
-    display: flex;
-}
-
-.section .grupo_contenedor{
-    flex-direction: row-reverse;
-}
-.section{
-    background-color: var(--Very-Pale-Blue);
-    --padding-container:110px 0;
-    position: relative;
-}
-
-
-.section_white{
-    --padding-container:210px 0;
-    background: #fff;
-    position: relative;
-}
-
-.section_imagen{
-    width: 100%;
-    max-width: 350px;
-    vertical-align: top;
-    margin-top: 0 auto;
-}
-
-.section_textos{
-    margin-top: 50px;
-    text-align: center;
-}
-
-.subtitulo{
-    margin-bottom: 16px;
-    font-family: var(--poppins);
-}
- */
+ /*End section curve*/
