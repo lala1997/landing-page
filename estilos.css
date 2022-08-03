@@ -10,8 +10,7 @@
 
     --Very-Dark-Cyan: hsl(192, 100%, 9%);
     --Very-Pale-Blue: hsl(207, 100%, 98%);
-
-    --padding-container: 80px 0;
+   
 }
 
 * {
@@ -30,7 +29,11 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     overflow: hidden;
-    padding: var(--padding-container);
+    padding: 80px 0;
+}
+
+.hero_main{
+    min-height: 100vh;
 }
 
 
@@ -70,6 +73,7 @@ body {
 /*Start Section principal*/
 .container_section_principal{
    text-align: center;
+   position: relative;
 }
 
 .title_section_principal{
@@ -101,6 +105,7 @@ font-size: 40px;
 
 .figure_hero_img {
     margin-top: 80px;
+    vertical-align: top;
 }
 
 .hero_img {
@@ -123,6 +128,10 @@ font-size: 40px;
     overflow: hidden;
 }
 
+.hero_icon{
+    display: block;
+}
+
 .hero_number {
     font-size: 60px;
     color: var(--Very-Dark-Cyan);
@@ -134,9 +143,77 @@ font-size: 40px;
 /*End Section principal*/
 
 /*Start Section wave*/
+.wave{
+position: absolute;
+width: 100%;
+height: 100px;
+background-repeat: no-repeat;
+background-size: 100% 100px;
+}
+
+.wave-bottom{
+    left: 0;
+    bottom:0;
+    background-image: url('./img/bg-section-top-desktop-1.svg');
+}
+
+.wave-top{
+    left: 0;
+    top:0;
+    background-image: url('./img/bg-section-bottom-desktop-1.svg');
+}
 
 /*End Section Wave*/
 
+.container_section_principal{
+position: relative;
+}
+
+.container_section_secondary{
+    position: relative;
+    background-color: var(--Very-Pale-Blue);
+    padding:80px 0;
+    text-align: center;
+}
+
+.section-white{
+    background-color: #fff;
+    padding-top: 10%;
+}
+
+.section_img {
+    width: 100%;
+    max-width:90%;
+}
+.subtitle{
+    color: var(--Very-Dark-Cyan);
+font-family: var(--poppins);
+margin-bottom: 20px;
+}
+
+.section_paragraph_secondary{
+    color: var(--Very-Dark-Cyan);
+    width: 80%;
+}
+
+.section_container{
+display: flex;
+flex-direction: row-reverse;
+}
+
+.section_white_direction {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+.section_text{
+    text-align: left;
+    margin-top: 10%;
+}
+
+.section_white_direction .section_paragraph_secondary {
+    width: 100%;
+}
 /*
 
 .wave {
