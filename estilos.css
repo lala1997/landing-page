@@ -226,6 +226,43 @@ width: 92%;
     color: var(--Very-Pale-Blue);
 }
 
+.container_footer{
+    display: flex;
+}
+
+.paragraph_footer {
+    width: 66%;
+    line-height: 1.5;
+}
+
+.icons_information ul{
+list-style: none;
+padding: 0;
+}
+
+.icons_information ul li{
+    margin: 10px 0;
+    }
+
+.icons_information ul i{
+    margin-right: 10px;
+}
+
+.container_paragraph_footer{
+margin: 16px 0;
+}
+
+.icons_social_media{
+    margin-top:50px;
+}
+
+.icons_social_media ul{
+display: flex;
+list-style: none;
+padding: 0;
+gap: 10px;
+}
+
 .fa-brands, .fab{
 font-size: 30px;
 }
@@ -243,6 +280,10 @@ background-clip: text;
 
 .fa-square-facebook:hover{
 color:#1877f2;
+
+}
+.second_column{
+position:relative;
 }
 
 .form input{
