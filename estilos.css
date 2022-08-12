@@ -148,7 +148,7 @@ background-size: 100% 100px;
 
 .wave-bottom{
     left: 0;
-    bottom: 0;
+    bottom: -1px;
     background-image: var(--wave-bottom);
 }
 
@@ -228,11 +228,25 @@ width: 92%;
 
 .container_footer{
     display: flex;
+    gap: 25%;
+
 }
 
 .paragraph_footer {
-    width: 66%;
+    margin: 16px 0;
     line-height: 1.5;
+}
+
+.container_paragraph_footer p {
+    width: 73%;
+}
+
+.container_text p {
+    width: 83%;
+}
+
+.title_footer{
+    font-family: var(--poppins);
 }
 
 .icons_information ul{
@@ -248,10 +262,6 @@ padding: 0;
     margin-right: 10px;
 }
 
-.container_paragraph_footer{
-margin: 16px 0;
-}
-
 .icons_social_media{
     margin-top:50px;
 }
@@ -262,7 +272,6 @@ list-style: none;
 padding: 0;
 gap: 10px;
 }
-
 .fa-brands, .fab{
 font-size: 30px;
 }
@@ -282,7 +291,12 @@ background-clip: text;
 color:#1877f2;
 
 }
+.firts_column{
+    width: 50%;
+}
+
 .second_column{
+    width: 50%;
 position:relative;
 }
 
@@ -290,11 +304,34 @@ position:relative;
     cursor: pointer;
 }
 
+input[type="email"]{
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+    width: 50%;
+    text-indent: 6px;
+}
+
 input[type="email"]:focus{
 outline: 0px;
  }
 
- input:invalid { border-color:var(--Light-Red); }
+ input[type="submit"]:focus{
+    outline: 0px;
+     }
+
+ input[type="submit"]{
+    display: inline-block;
+    padding: 8px 30px;
+    background: var(--Pink);
+    font-weight: 600;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    margin-left: 30px;
+ }
+
+ input .invalid { border-color:var(--Light-Red); }
  
 /*End Footer*/
 
@@ -304,9 +341,12 @@ outline: 0px;
     font-size: 12px;
     color: var(--Light-Red);
     position: absolute;
-    top: 39%;
+    top: 74%;
     left: 0;
   }
-  
-
 /*end Messages error inputEmail*/
+
+/*media queries*/
+@media (min-width:768px){
+
+}
