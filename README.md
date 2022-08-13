@@ -29,15 +29,15 @@ Users should be able to:
 ### Screenshot
 
 #### Moble View - 375px
-![Mobile View - 375px](img/mobile1.png ![Mobile View - 375px](img/mobile2.png) ![Mobile View - 375px](img/mobile3.png)
+![Mobile View - 375px](img/mobile1.png) ![Mobile View - 375px](img/mobile2.png) ![Mobile View - 375px](img/mobile3.png)
 
 #### Desktop View - 1440px
 ![Desktop View - 1440px](img/desktop1.png) ![Desktop View - 1440px](img/desktop2.png)
 
 ### Links
 
-- [View solution on GitHub] (https://github.com/lala1997/practicas-landing-page.git)
-- [Go to live site hosted using GitHub Pages] (https://lala1997.github.io/practicas-landing-page/)
+- View solution on GitHub (https://github.com/lala1997/practicas-landing-page.git)
+- Go to live site hosted using GitHub Pages (https://lala1997.github.io/practicas-landing-page/)
 
 ## My process
 
