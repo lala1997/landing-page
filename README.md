@@ -29,7 +29,7 @@ Users should be able to:
 ### Screenshot
 
 #### Moble View - 375px
-![Mobile View - 375px](img/mobile1.png ![Mobile View - 375px](img/mobile2.png) ![Mobile View - 375px](img/mobile3.png) ![Mobile View - 375px](images/screenshot-mobile--d.jpg)
+![Mobile View - 375px](img/mobile1.png ![Mobile View - 375px](img/mobile2.png) ![Mobile View - 375px](img/mobile3.png)
 
 #### Desktop View - 1440px
 ![Desktop View - 1440px](img/desktop1.png) ![Desktop View - 1440px](img/desktop2.png)
