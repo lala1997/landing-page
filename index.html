@@ -151,7 +151,7 @@
                 </div>
 
                 <form class="form" onsubmit="return false">
-                    <input class="email invalid" type="email" ></input>
+                    <input class="email" type="email" ></input>
                     <input type="submit" value="Subscribe"></input>
                 </form>
               </div>
@@ -176,12 +176,14 @@
             if (!event.target.validity.valid) {
                 elem.innerText = 'Check your email please';
                 elem.style.display = 'block';
+                inputemail.classList.add('invalid');
             }
         }
 
         function notifyinput(event) {
             if ('block' === elem.style.display) {
                 elem.style.display = 'none';
+                inputemail.classList.toggle('invalid');
             }
         }
     </script>
